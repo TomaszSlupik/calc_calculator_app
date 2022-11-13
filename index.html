@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/74041d88a9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+
+    <div class="calcWrapper">
+        <div class="wrapperbox">
+            <div class="app">Aplikacja kalkulator</div>
+            <div class="boxcalc">
+                <div class="calcResult">
+                    <h1>Twój wynik:</h1>
+                    <div class="resultcalc"></div>
+                    <div class="back">Wróć do kalkulatora:</div>
+                    <button class="btnBacktoCalc btn">Wróć</button>
+                </div>
+                <div class="cal">
+
+
+                    <div class="input">
+                        <input class="inputCalculator" type="tel" />
+                    </div>
+
+                    <div class="boxclear">
+                        <div class="btn clearbtn clearAll">
+                            <div class="textBtn">Clear</div>
+                        </div>
+                    </div>
+
+                    <div class="boxSevenNine">
+                        <p class="btn">7</p>
+                        <p class="btn">8</p>
+                        <p class="btn">9</p>
+                        <button class="btn divideBtn clearAll blockBtn">
+                            <i class="fa-solid fa-divide"></i>
+                        </button>
+                    </div>
+
+                    <div class="boxFourSix">
+                        <p class="btn">4</p>
+                        <p class="btn">5</p>
+                        <p class="btn">6</p>
+                        <button class="btn multiBtn clearAll blockBtn">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                    </div>
+
+                    <div class="boxOneThree">
+                        <p class="btn">1</p>
+                        <p class="btn">2</p>
+                        <p class="btn">3</p>
+                        <button class="btn subBtn clearAll blockBtn">
+                            <i class="fa-solid fa-minus"></i>
+                        </button>
+                    </div>
+
+                    <div class="boxOneThree">
+                        <p class="btn btnZero ">0</p>
+                        <div class="btn btnEqual">
+                            <i class="fa-solid fa-equals"></i>
+                        </div>
+                        <button class="btn addBtn clearAll blockBtn">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
